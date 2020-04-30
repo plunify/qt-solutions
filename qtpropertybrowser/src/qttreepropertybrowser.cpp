@@ -484,7 +484,7 @@ void QtTreePropertyBrowserPrivate::init(QWidget *parent)
     m_delegate->setEditorPrivate(this);
     m_treeWidget->setItemDelegate(m_delegate);
     m_treeWidget->header()->setMovable(false);
-    m_treeWidget->header()->setResizeMode(QHeaderView::Stretch);
+    m_treeWidget->header()->setResizeMode(QHeaderView::Interactive);
 
     m_expandIcon = drawIndicatorIcon(q_ptr->palette(), q_ptr->style());
 

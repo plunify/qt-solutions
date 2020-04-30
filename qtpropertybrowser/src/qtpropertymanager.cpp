@@ -1602,7 +1602,7 @@ public:
 
     struct Data
     {
-        Data() : val(false), textVisible(true) {}
+        Data() : val(false), textVisible(false) {}
         bool val;
         bool textVisible;
     };
